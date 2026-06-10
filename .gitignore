@@ -1,2 +1,6 @@
 data/*
 .rc-venv/*
+artifacts/
+*.pyc
+__pycache__/
+.pytest_cache/

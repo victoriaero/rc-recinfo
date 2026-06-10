@@ -1,0 +1,18 @@
+paths:
+  data_dir: data
+  artifact_dir: artifacts
+  index_path: artifacts/indexes/entities_fts.sqlite
+index:
+  batch_size: 5000
+retrieval:
+  operator: OR
+run:
+  name: submission_02
+retrieval:
+  mode: fielded
+  operator: OR
+  top_k: 100
+  weights:
+    title: 3.0
+    keywords: 1.0
+    text: 1.0
