@@ -1,0 +1,8 @@
+PyYAML>=6.0
+tqdm>=4.0
+numpy
+scikit-learn
+lightgbm
+sentence-transformers
+transformers
+torch
