@@ -1,0 +1,10 @@
+PyYAML>=6.0
+tqdm>=4.0
+numpy
+scikit-learn
+lightgbm
+xgboost
+sentence-transformers
+transformers
+torch
+pytest>=8.0
